@@ -55,7 +55,7 @@ public class FirstAndLastOccurance {
 		while(low<=high){
 
 			int mid=low+(high-low)/2;
-
+ 
 			if(target==arr[mid]) {
 				last=mid;
 				low=mid+1;
